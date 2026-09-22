@@ -1,6 +1,6 @@
-## {RAIHAN MAHMUD}
-### sidekick: {Usagi-kun}
-### pd{5}
+## RAIHAN MAHMUD
+### sidekick: Usagi-kun
+### pd 5
 # Foundations in CS Daily Work Repository
 ---
 
