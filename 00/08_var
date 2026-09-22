@@ -1,0 +1,23 @@
+; Raihan Mahmud
+; Alone
+; Foundations in CS
+; HW08 -- Saving for Posterity
+; 2026-09-17
+; time spent: .33 hrs
+
+
+(define a (+ 3 5)) ; should be 8
+
+(define b (* -3 (+ 13 51))) ; should be -192
+
+(define c (/ 600 (expt 2 2))) ; should be 150
+
+(define d (expt 15 (/ 2 ( - 15 14)))) ; should be 225
+
+(define _e_ (* 73 (/ 100 80))) ; should be 91.25
+
+(define ac (* a c)) ; should be 1200
+
+(define abc (* a b c)) ; should be -230400
+
+(define _e_d (* _e_ d)) ; 20531.25
