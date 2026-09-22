@@ -1,0 +1,34 @@
+# Scheme backups etc
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*.ss~
+*.ss#*
+
+*.scm~
+*.scm#*
+
+
+# BOSS XTRAS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Text Backup Files #
+*.s[a-w][a-z]
+*~
+\#*\#
+.\#*
+
+# OS X Files #
+.DS_Store
+._*
+_*
+.Spotlight*
+.Trashes
+
+# Windows Files #
+Thumbs.db
+ehthumbs.db
+
+# Filenames with special characters
+**/*[\\/\:;*?!'"<>|$º•¶§∞¢£]*
+
+# bc teh Youngs have an addiction
+.vscode/
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
