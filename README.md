@@ -1,6 +1,6 @@
-## {YOUR NAME HERE}
-### sidekick: {YOUR DUCKY'S NAME HERE}
-### pd{xx}
+## {RAIHAN MAHMUD}
+### sidekick: {Usagi-kun}
+### pd{5}
 # Foundations in CS Daily Work Repository
 ---
 
