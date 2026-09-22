@@ -1,0 +1,30 @@
+; Raihan Mahmud
+; Alone
+; Foundations in CS
+; HW09 -- Automate
+; 2026-09-20
+; time spent: 1 hr
+
+; Soley made by myself
+; These function will do their respective tasks based on their name (add function will add values)
+
+(define foo
+  (lambda (g)
+    (+ g 0)))
+
+(define areaCirc
+  (lambda (r)
+    (* pi (expt r 2))))
+
+(define areaWasher
+  (lambda (R2 R1)
+    (- (* pi (expt R2 2)) (* pi (expt R1 2)))))
+
+(foo 3)
+; Should be 3
+
+(areaCirc 5)
+; should be 78.53981633974483
+
+(areaWasher 90 2)
+; should be 25434.334123462962
