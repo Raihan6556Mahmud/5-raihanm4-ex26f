@@ -1,0 +1,29 @@
+; Raihan Mahmud
+; Alone
+; Foundations in CS
+; HW11 -- What is this Sorcery?
+; 2026-09-22
+; time spent: .33 hrs
+
+; 1.1.1 notes
+; Are there "powerful languages" and inferior languages?
+; using prefix notation
+; operands and operators mentioned
+; prefix is very clear and straight forward
+; pretty printing/indentation
+; Difference between interpreter and compiler?
+; read-evaluate-print loop
+
+; 1.1.2 notes
+; define mentioned
+; defining pi and using it in operations
+; allows for repition of defined tasks
+; incremental development, version based?
+; global enviroment sounds important
+
+; 1.1.3 notes
+; subexpressions, order of operations
+; using trees
+; How advanced can these trees get?
+; pointless to use variables in functions when they have not been pre-defined
+; Special forms?
