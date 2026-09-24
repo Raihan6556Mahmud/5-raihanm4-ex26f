@@ -33,7 +33,7 @@
 
 (define XNOR3 ; returns the exclusive NOT value of 3 inputs (my fav logic gate)
   (lambda (a b c)
-    (not(XOR3 a b c)))))
+    (not(XOR3 a b c))))
 
 "Testing XNOR3"
 (XNOR3 #f #f #t) ; should be false
