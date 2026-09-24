@@ -1,5 +1,5 @@
 ; Raihan Mahmud
-; Alone
+; Lone--SoN
 ; Foundations in CS
 ; HW13 -- True|False
 ; 2026-09-24
@@ -10,26 +10,26 @@
     (and (or a b) (not (and a b)))))
 
 "Testing XOR"
-(XOR #f #t)
-(XOR #t #t)
+(XOR #f #t) ; should be true
+(XOR #t #t) ; should be false
 
 (define BIC ; returns true if both inputs are equal, false otherwise
   (lambda (a b)
     (not (XOR a b))))
 
 "Testing BIC"
-(BIC #f #f)
-(BIC #t #f)
+(BIC #f #f) ; should be true
+(BIC #t #f) ; should be false
 
 (define XOR3 ; returns the exclusive OR value of 3 inputs 
   (lambda (a b c)
     (XOR a (XOR b c))))
 
 "Testing XOR3"
-(XOR3 #f #f #t)
-(XOR3 #f #t #t)
-(XOR3 #t #f #t)
-(XOR3 #t #t #t)
+(XOR3 #f #f #t) ; should be true
+(XOR3 #f #t #t) ; should be false
+(XOR3 #t #f #t) ; should be false
+(XOR3 #t #t #t) ; should be true
 
 
 (define XNOR3 ; returns the exclusive NOT value of 3 inputs (my fav logic gate)
@@ -37,7 +37,7 @@
     (not(XOR a (XOR b c)))))
 
 "Testing XNOR3"
-(XNOR3 #f #f #t)
-(XNOR3 #f #t #t)
-(XNOR3 #t #f #t)
-(XNOR3 #t #t #t)
+(XNOR3 #f #f #t) ; should be false
+(XNOR3 #f #t #t) ; should be true
+(XNOR3 #t #f #t) ; should be true
+(XNOR3 #t #t #t) ; should be false
