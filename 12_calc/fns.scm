@@ -15,8 +15,8 @@
 
 (define HarMean3 ; HarMean3 returns arithmetic mean of 3 values
   (lambda (a b c)
-    (/ 3
-       (+ (/ 1 a) (/ 1 b) (/ 1 c)))))
+    (/ 1
+       (ArithMean3 (/ 1 a) (/ 1 b) (/ 1 c)))))
 
 "Testing HarMean3"
 (HarMean3 6 6 6) ; should be 6
