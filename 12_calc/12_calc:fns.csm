@@ -1,0 +1,45 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname 12_calc:fns) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+; Raihan Mahmud
+; Alone
+; Foundations in CS
+; HW12 -- Crunching Numbers
+; 2026-09-23
+; time spent: 1 hr
+
+(define ArithMean3 ; ArithMean3 returns arithmetic mean of 3 values
+  (lambda (a b c)
+    (/ (+ a b c) 3)))
+
+"Testing ArithMean3"
+(ArithMean3 9 7 5) ; should be 7
+(ArithMean3 15 63 96) ; should be 58
+
+(define HarMean3 ; HarMean3 returns arithmetic mean of 3 values
+  (lambda (a b c)
+    (/ 3
+       (+ (/ 1 a) (/ 1 b) (/ 1 c)))))
+
+"Testing HarMean3"
+(HarMean3 6 6 6) ; should be 6
+(HarMean3 2 2 2) ; should be 2
+
+(define CartDist ; returns the distance between 2 points on a graph
+  (lambda (X1 Y1 X2 Y2)
+    (sqrt
+     (+ (expt (- X2 X1) 2) (expt (- Y2 Y1) 2)))))
+
+"Testing CartDist"
+(CartDist 3 4 6 8) ; should be 5
+(CartDist 10 10 16 18) ; should be 10
+
+(define MAX2 ; Returns maximum of 2 numbers
+  (lambda (a b)
+    (/
+     (+ (+ a b)
+        (abs (- a b))) 2)))
+
+"Testing MAX2"
+(MAX2 5 7) ; should be 7
+(MAX2 -1973 -1977) ; should be -1973
