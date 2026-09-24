@@ -31,7 +31,6 @@
 (XOR3 #t #f #t) ; should be false
 (XOR3 #t #t #t) ; should be true
 
-
 (define XNOR3 ; returns the exclusive NOT value of 3 inputs (my fav logic gate)
   (lambda (a b c)
     (not(XOR a (XOR b c)))))
