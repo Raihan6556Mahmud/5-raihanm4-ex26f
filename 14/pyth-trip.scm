@@ -3,7 +3,7 @@
 ; Foundations in CS
 ; HW14 -- Some Triples Are More Equal Than Others
 ; 2026-09-25
-; time spent:
+; time spent: .33 hrs
 
 (define isPythTriple? ;  Returns true if values are a Pythagorean Triple, order matters
   (lambda (a b c)
