@@ -2,7 +2,7 @@
 ; Lone-SoN
 ; Foundations in CS
 ; HW14 -- Some Triples Are More Equal Than Others
-; 2026-09-25
+; 2026-09-28
 ; time spent: 0.33 hrs
 
 ;A: 90 - 100
