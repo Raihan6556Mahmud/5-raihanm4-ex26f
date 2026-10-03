@@ -34,8 +34,6 @@
 (sumDigits 35) "... Should be 8"
 (sumDigits 492067) "... Should be 28"
 
-
-
 (define numDigits ; takes positive integer n and returns the number of digits in n
   (lambda (n)
     (cond ; divide n by 10 until it is less than 10, adding 1 each time
