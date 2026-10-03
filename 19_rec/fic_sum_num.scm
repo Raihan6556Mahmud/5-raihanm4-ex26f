@@ -5,13 +5,13 @@
 ; 2026-10-02
 ; time spent: 1.5 hrs
 
-(define fiction
+(define fiction ; does a job equivalent to (fact n) except only multiplies every 3rd integer
   (lambda (n)
     ( if (< n 2) 1
       (* n (fiction(- n 3)))
       )))
 
-"Testing fiction" ; does a job equivalent to (fact n) except only multiplies every 3rd integer
+"Testing fiction"
 (fiction 0) "... Should be 1"
 (fiction 1) "... Should be 1"
 (fiction 2) "... Should be 2"
